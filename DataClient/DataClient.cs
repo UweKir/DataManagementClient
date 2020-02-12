@@ -324,6 +324,9 @@ namespace DataManagement.DataClientLib
                     case "Energie":
                         dataFile = new ConsumptionFile(fi, location);
                         break;
+                    case "Wasser":
+                        dataFile = new ConsumptionFile(fi, location);
+                        break;
                     default:
                         dataFile = null;
                         break;
